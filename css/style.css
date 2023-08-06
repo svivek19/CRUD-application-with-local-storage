@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: aliceblue;
+    background-color: rgb(24, 1, 27);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin: 4rem auto;
+}
+
+h4 {
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+input {
+    padding: 8px 20px;
+    margin: 8px 4px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(2, 2, 49);
+    border: none;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+button {
+    padding: 8px 15px;
+    margin: 8px 4px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(2, 222, 2);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(109, 255, 109);
+    transition: all 0.3s ease;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin: 4rem auto;
+    border: 1px solid rgb(203, 224, 243);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.update-form,
+.create-form {
+    display: none;
+}
+
+.edit {
+    background-color: #009dff;
+}
+
+.edit:hover {
+    background-color: #009dff;
+}
+
+.delete {
+    background-color: red;
+}
+
+.delete:hover {
+    background-color: red;
+}
+
+/* Moblie view */
+@media screen and (max-width:425px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 3rem;
+    }
+
+    input {
+        padding: 8px 20px;
+        margin: 8px 4px;
+        font-size: 15px;
+    }
+
+    button {
+        padding: 8px 15px;
+        margin: 8px 4px;
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 3rem;
+    }
+
+    input {
+        padding: 8px 20px;
+        margin: 8px 4px;
+        font-size: 15px;
+    }
+
+    button {
+        padding: 8px 15px;
+        margin: 8px 4px;
+        font-size: 15px;
+    }
+
+}
